@@ -1,3 +1,10 @@
+//this code comes straight from the documents -- first example
+//use OBS for the video portion
+//in the docs there are lots of formats to access the live stream
+//idea ones are HLS and DASH, but they require a lot of setup
+//for ease, we will use http-flv (flash player)
+//must install flv.js as a dependency, this is the actual video player
+
 const NodeMediaServer = require("node-media-server");
 
 const config = {
